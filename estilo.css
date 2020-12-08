@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e6e6e6;
+}
+.topo{
+
+}
+.topo1{
+	background-color: #1da871;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	margin:0;
+	overflow: hidden;
+	box-shadow: 3px -4px 9px black;
+}
+.logo{
+	width: 28px;
+	height: 28px;
+
+}
+.rede-social{
+	margin-top: 7px;
+	margin-left: 11px;
+	display: inline-block;
+	position: absolute;
+	transition-duration: 0.5s;
+}
+.rede-social ul{
+	list-style: none;
+	padding: 0;
+}
+.rede-social ul li{
+	display: inline-block;
+	margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    text-align: center;	
+    background: #1da871;
+}
+.rede-social .logo{
+	border: 1px solid #2a7fc9;
+	border-radius: 13px;
+	transition-duration: 0.3s;
+}
+.rede-social .logo:hover{
+	width: 25px;
+	height: 25px;
+	transition-duration: 0.4s;
+}
+.topo1 a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial ,cursive,sans-serif;
+	color: #FFF;
+	text-shadow: 0px 1px 4px #c6c6c6;
+	transition-duration: 0.5s;
+}
+
+.contato .telefone{
+	position: absolute;
+	display: inline-block;
+	left: 45%;
+	top: 5px;
+}
+.contato ul{
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+
+}
+.contato ul li{
+	position: relative;
+	overflow: hidden;
+}
+.numero{
+	display: inline-block;
+	margin-right: 20px;
+}
+.numero a:hover{
+	color: #2a7fc9;
+	transition-duration: 0.5s;
+}
+.botao-orcamento{
+	position: absolute;
+	top: 26px;
+	left: 77%;
+}
+.botao-orcamento a{
+	background: #2a7fc9;
+	font-size: 25px;
+	font-family: serif,sans-serif;
+	border: none;
+	color: #FFF;
+	padding: 10px 20px;
+	text-shadow: none;
+	font-family: arial, cursive,sans-serif;
+	
+	
+}
+.botao-orcamento a:hover{
+	background-color: #1da871;
+	color: white;
+	transition-duration: 0.6s;
+}
+#navegacao{
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	box-shadow: 3px -4px 9px black; 
+
+}
+.menu{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-self: center;
+	justify-content: space-between;
+	align-items: center;
+	border-top: #6c6c6c;
+}
+.menu h1{
+	margin: 0;
+	display: inline-block;
+	padding-left: 30px;
+}
+.menu .logotipo{
+	text-decoration: none;
+	color: #1da871;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: arial;
+}
+.menu span{
+	color: #2a7fc9;
+	font-size: 70px;
+}
+.menu ul{
+	list-style-type: none;
+	text-shadow: 0px 3px 2px #c6c6c6;
+
+}
+.menu li{
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 55px;
+	
+}
+.menu .op{
+	text-decoration: none;
+	font-size: 22px;
+	color: #939089;
+	padding:5px 10px; 
+	border-radius: 11px;
+	font-family: arial, cursive, sans-serif;
+}
+.menu .op:hover{
+	color: #2a7fc9;
+}
+main{
+	width: 100%;
+	height: auto;
+	position: relative;
+	
+}
+main .imagemPrincipal{
+	width: 100%;
+	height: 470px;
+	background-image: url(imagens/imag1.png);
+	background-size: 100% 500px ;
+	background-repeat: no-repeat;
+}
+main .fixos{
+	/*
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	*/
+	position: fixed;
+	top: 73%;
+	z-index: 100
+}
+main .orcamento-fixo{
+	margin-top: 29%;
+	width: 107px;
+	background: orange;
+	padding: 12px;
+	text-align: center;
+	font-family: arial, cursive, sans-serif;
+	font-size: 16px;
+	box-shadow:-4px 0 7px -2px rgba(0,0,0,.2);
+	letter-spacing: 2px;
+
+}
+main .whats-fixo{
+	margin-top: 10px;
+	width: 107px;
+	background: #2ec9ba;
+	padding: 12px;
+	text-align: center;
+	font-family: arial, cursive, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	box-shadow:-4px 0 7px -2px rgba(0,0,0,.2);
+	letter-spacing: 2px;
+}
+main a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+}
+main #container-conteudo{
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+main .container-info1{
+	background-color: #ccc;
+	width: 100%;
+	height: 100%;
+
+}
+main .titulo1 h1{
+	margin:0;
+	color: #3c3c3b;
+	font-family: Arial, cursive, sans-serif;
+	font-weight: 700;
+	font-size: 75px;
+	letter-spacing: 2px;
+}
+main .titulo1{
+	display: flex;
+	margin-left: 10%;
+	padding-top: 30px;
+
+}
+main .conteudo1{
+	display: flex;
+	align-items: baseline;
+	padding: 3% 10%; 
+	font-family: arial, cursive,sans-serif;
+}
+main .conteudo-bloco{
+	width: 300px;
+	
+}
+main .conteudo-bloco h2,p{
+	margin: 0;
+	color: #3c3c3b;
+
+}
+main .conteudo-bloco h2{
+	font-size: 35px;
+}
+main .conteudo-bloco p{
+	padding-top: 20px;
+	font-weight: 300;
+	font
+}
